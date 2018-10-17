@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Movie Box</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="favorites">Favorites</string>
+
+    <!--Action-->
+    <string name="refresh">Refresh</string>
+    <string name="sort">Sort</string>
+    <string name="sort_by">Sort by</string>
+    <string name="share">Share</string>
+    <string name="share_via">Share via ..</string>
+
+    <!--Accessibility/Content Description-->
+    <string name="content_image_background">Movie Background Image</string>
+    <string name="content_image_poster">Movie Poster Image</string>
+    <string name="content_image_trailers">Movie Trailers</string>
+
+    <!---Dummy values-->
+    <string name="dummy_vote_average">7.6</string>
+    <string name="dummy_total_votes">142</string>
+    <string name="dummy_popularity_rank">88.21</string>
+
+    <!--Error Message-->
+    <string name="error_message_check_internet">Please check your network connection.</string>
+    <string name="error_message">Error</string>
+    <string name="add_to_favorites">Added to your favorite lists.</string>
+    <string name="remove_to_favorites">Removed from your favorite lists.</string>
+
+    <!-- Movie Details -->
+    <string name="vote_average">Vote Avg.</string>
+    <string name="total_votes">Total Votes</string>
+    <string name="popularity_rank">Popularity</string>
+    <string name="story_line">Story Line</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+
+</resources>

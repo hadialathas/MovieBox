@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_movie_trailers"
+        android:layout_width="@dimen/button_square_width"
+        android:layout_height="@dimen/button_square_height"
+        android:src="@drawable/ic_play_circle_outline_black_48dp"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:contentDescription="@string/content_image_trailers"/>
+    
+    <TextView
+        android:id="@+id/tv_movie_trailers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_large"
+        android:layout_gravity="center_vertical"
+        android:text="@string/trailers"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_large"
+        />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_medium">
+
+    <RadioButton
+        android:id="@+id/rb_sort_popular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/most_popular" />
+
+    <RadioButton
+        android:id="@+id/rb_sort_topRated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rb_sort_popular"
+        android:text="@string/top_rated" />
+
+    <RadioButton
+        android:id="@+id/rb_sort_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rb_sort_topRated"
+        android:text="@string/favorites" />
+
+</RelativeLayout>
